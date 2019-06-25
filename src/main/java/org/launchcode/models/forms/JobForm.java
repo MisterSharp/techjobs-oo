@@ -82,6 +82,18 @@ public class JobForm {
         return positionTypeId;
     }
 
+    public void setLocationId(int locationId) {
+        this.locationId = locationId;
+    }
+
+    public void setCoreCompetencyId(int coreCompetencyId) {
+        this.coreCompetencyId = coreCompetencyId;
+    }
+
+    public void setPositionTypeId(int positionTypeId) {
+        this.positionTypeId = positionTypeId;
+    }
+
     public void setEmployerId(int employerId) {
         this.employerId = employerId;
     }
